@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+  }
+.center{
+	max-width: 1100px;
+	margin: 0 auto;
+	margin-top: -100px;
+	padding: 1rem;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	
+}
+
+
+header{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 0rem;
+	text-align: center;
+	text-decoration:none; 
+	background: #ffffff;
+	box-sizing: content-box;
+	z-index: 99; 
+	
+}
+
+.shadow-ze{
+	box-shadow: 0px 2px 6px #b9b8b8;
+	height: 140px;
+	border-top: 0px;
+	padding: 0rem;
+	
+}
+
+
+header li{
+	display: inline-block;
+	color:white;
+	
+}
+header a{
+	text-decoration: none;
+	color: rgb(3, 3, 1);
+	font-size: 1.7em;
+	padding: 15px;
+	margin-right: 0;
+}
+
+
+
+.conteudo{
+	height: 2000px;
+}
+section.content{
+	margin-top: 260px;
+}
+.logo {
+	display: inline-block;
+	height: 160px;
+	padding: 5px;
+	
+}
+
+.logo img {
+	height: 90%;
+	margin-left: -900px;
+	
+}
+
+.container{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+}
+
+.whatsapp {
+    position: fixed;
+    top: 82%;
+    right: 1%;
+    padding: 10px;
+    z-index: 10000000;
+}
